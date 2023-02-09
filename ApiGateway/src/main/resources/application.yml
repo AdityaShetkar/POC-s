@@ -1,0 +1,27 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: MOVIE-CATALOG-SERVICE
+          uri: lb://MOVIE-CATALOG-SERVICE
+          predicates:
+            - Path=/catalog/**
+
+        - id: MOVIE-INFO-SERVICE
+          uri: lb://MOVIE-INFO-SERVICE
+          predicates:
+            - Path=/movies/**
+
+        - id: RATING-DATA-SERVICE
+          uri: lb://RATING-DATA-SERVICE
+          predicates:
+            - Path=/rating/**
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true

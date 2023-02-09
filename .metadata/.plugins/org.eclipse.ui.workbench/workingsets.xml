@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674637479257_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674637479292_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675058012175_3" label="kafkaRealEgSts" name="kafkaRealEgSts">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kafkaRealEgSts" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/WikiMediaProducer" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ConsumerDatabase" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ConsumerDatabase1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ConsumerDatabase3" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674637483503_2" label="Window Working Set" name="Aggregate for window 1674637483502"/>
+</workingSetManager>
